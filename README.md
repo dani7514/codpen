@@ -116,7 +116,7 @@ cd your-repo
 Navigate to the `backend` folder and run the following commands:
 
 ```bash
-cd backend
+cd server
 go run main.go
 ```
 
