@@ -1,0 +1,31 @@
+project_name: codpen
+
+builds:
+  - id: "codpen-server"
+    main: ./server/main.go
+    binary: codpen-server
+    goos:
+      - linux
+      - darwin
+      - windows
+      - openbsd
+    goarch:
+      - amd64
+      - arm64
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    env:
+      - CGO_ENABLED=0
+  - id: "codpen-client"
+    dir: ./client
+    binary: codpen
+    goos:
+      - linux
+      - darwin
+      - windows
+      - openbsd
+    goarch:
+      - amd64
+      - arm64
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    env:
+      - CGO_ENABLED=0
