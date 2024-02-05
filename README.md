@@ -154,7 +154,7 @@ This will launch the web client, providing a user-friendly interface for collabo
 | Daniel                 | Misganaw       | UGR/6303/13                                    |    
 | Zelalem                | Habtamu        | UGR/7301/13                                    |
 | Yohannes               | Bekele         | UGR/3361/13                                    |
-| Abiy                   | Abiy           | UGR/3486/13                                    |
+| Abiy                   | Biru           | UGR/3486/13                                    |
 
 We appreciate their valuable contributions to <span style="font-size: larger;">`coDpen`</span>!
 
