@@ -107,7 +107,7 @@ To set up and run the collaborative code editor, follow the steps below:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/miki/coDpen.git
+git clone https://github.com/dani7514/codpen.git
 cd your-repo
 ```
 
